@@ -3,3 +3,8 @@ int sumar(int a, int b) { return a + b; }
 int restar(int a, int b) { return a - b; }
 int multiplicar(int a, int b) { return a * b; }
 int dividir(int a, int b) { return (b != 0) ? a / b : 0; }
+int potencia(int a, int b) {
+    int c = 1;
+    for (int i = 0; i < b; i++) c *= a;
+    return c;
+}

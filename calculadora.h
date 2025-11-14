@@ -21,4 +21,8 @@ int multiplicar(int a, int b);
 * @return Devuelve 0 si el divisor es 0.
 */
 int dividir(int a, int b);
+/** 
+ * @brief eleva un número a otro
+*/
+int potencia(int a, int b);
 #endif
